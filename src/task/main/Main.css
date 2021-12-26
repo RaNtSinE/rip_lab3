@@ -1,0 +1,33 @@
+.Main  {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+.TaskRow {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.TaskRowName {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.TaskRow input {
+    transform: scale(1.5);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.TaskRow:hover {
+    background: orange;
+}

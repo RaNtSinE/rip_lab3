@@ -1,0 +1,25 @@
+.EditWindow {
+    z-index: 20;
+    background: #222222;
+    display: flex;
+    width: 400px;
+    min-height: 200px;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid orange;
+    justify-content: flex-end;
+}
+
+.IsComplete {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+textarea.TaskText {
+    padding-left: 14px;
+    padding-right: 13px;
+}

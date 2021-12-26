@@ -1,0 +1,7 @@
+.EditButton {
+    border-radius: 5px;
+    border: 1px solid orange;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 5px 10px;
+}

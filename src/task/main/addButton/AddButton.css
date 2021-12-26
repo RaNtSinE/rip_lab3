@@ -1,0 +1,11 @@
+.AddButton {
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid orange;
+}
+
+.AddButton:hover{
+    background: orange;
+}
